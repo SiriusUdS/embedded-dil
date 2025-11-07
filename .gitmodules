@@ -1,0 +1,4 @@
+[submodule "stm32-components"]
+	path = stm32-components
+	url = https://github.com/SiriusUdS/stm32-components.git
+	branch = add-cmake
