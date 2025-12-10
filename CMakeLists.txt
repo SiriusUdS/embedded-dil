@@ -31,6 +31,8 @@ project(embedded_DIL C CXX ASM)
 add_library(${PROJECT_NAME} STATIC
 
         ${CMAKE_CURRENT_SOURCE_DIR}/Control/Src/led_flasher.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/Communication/Src/communicator.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/Telemetry/Src/telemtry_bidon.c
 )
 
 # Inclure les répertoires
